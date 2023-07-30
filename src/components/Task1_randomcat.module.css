@@ -1,0 +1,22 @@
+#imageFrame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#catImage {
+  width: 75%;
+
+  max-height: 100%;
+}
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+  height: 600px;
+  align-items: center;
+}
+.button {
+  width: 25%;
+}
