@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import Confetti from "react-confetti";
 import styles from "../styles/Task4_trigger_with_all_buttons.module.css";
+
+/* TASK 4 Here you need to make sure that you can trigger the confetti with each button */
+
 const Task4TriggerWithAllButtons = () => {
   const [sprinkle, setSprinkle] = useState(false);
-  const [numOfPieces, setNumOfPieces] = useState(200);
   const [toggleButton1, setToggleButton1] = useState(false);
   const [toggleButton2, setToggleButton2] = useState(false);
   const [toggleButton3, setToggleButton3] = useState(false);
@@ -16,7 +18,7 @@ const Task4TriggerWithAllButtons = () => {
       setSprinkle(false);
     }, 3000);
     setAreButtonsEnabled(true);
-  }, [toggleButton1, toggleButton2, toggleButton3, toggleButton4]);
+  }, [toggleButton1]);
 
   return (
     <div>
@@ -24,7 +26,7 @@ const Task4TriggerWithAllButtons = () => {
         <div className={styles.confetti}>
           <Confetti
             tweenDuration={1000}
-            numberOfPieces={numOfPieces}
+            numberOfPieces={200}
             width={window.innerWidth}
             height={window.innerHeight}
           />

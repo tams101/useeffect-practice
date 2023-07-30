@@ -2,11 +2,11 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import styles from "../styles/Task1_random_cat.module.css";
 
+/* TASK 1 Modify this useEffect hook below to make sure a new cat image is fetched every time the 'New Cat' button is clicked. Think about the ways to trigger our code inside the callback function with useEffect(). */
+
 const Task1RandomCat = () => {
   const [catImage, setCatImage] = useState({});
   const [toggle, setToggle] = useState(false);
-
-  // Modify this useEffect hook below to make sure a new cat image is fetched every time the 'New Cat' button is clicked. Think about the ways to trigger our code inside the callback function with useEffect().
 
   useEffect(() => {
     //Do not change anything inside this callback function
