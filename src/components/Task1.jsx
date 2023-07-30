@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import styles from "../styles/Task1_random_cat.module.css";
+import styles from "../styles/Task1.module.css";
 
 /* TASK 1 Display random cats by button click
 

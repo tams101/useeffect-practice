@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Confetti from "react-confetti";
-import styles from "../styles/Task4_trigger_with_all_buttons.module.css";
+import styles from "../styles/Task4.module.css";
 
 /* TASK 4 Trigger confetti with all buttons
 
