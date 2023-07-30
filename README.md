@@ -1,8 +1,9 @@
-# React + Vite
+# useEffect practice tasks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### - To set up this project, run `npm install` in your terminal in the main folder of the project.
 
-Currently, two official plugins are available:
+### - To start the app, run `npm run dev`, then open the link (http://localhost:5173/) in Chrome.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### - You can find 4 different components in the 'components' folder and your task is to debug/complete the useEffect() call to render the page as described in the description for each exercise. Start by reading the task in the component (for example in 'Task1_random_cat.jsx'), then enable the task by simply uncommenting it in the 'App.jsx' file. Only leave one task uncommented at a time!
+
+### _Before starting to work on these tasks, it's recommended to take another look at the useEffect hook in our notes here (https://notes.northcoders.com/courses/js-front-end/useEffect)_

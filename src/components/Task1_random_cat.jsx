@@ -9,8 +9,8 @@ const Task1RandomCat = () => {
   // Modify this useEffect hook below to make sure a new cat image is fetched every time the 'New Cat' button is clicked. Think about the ways to trigger our code inside the callback function with useEffect().
 
   useEffect(() => {
+    //Do not change anything inside this callback function
     axios.get("https://api.thecatapi.com/v1/images/search").then(({ data }) => {
-      console.log(data[0]);
       setCatImage(data[0].url);
     });
   }, []);
