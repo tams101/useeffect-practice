@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import styles from "./Task1_randomcat.module.css";
+import styles from "../styles/Task1_random_cat.module.css";
 
-const Task1_randomcat = () => {
+const Task1RandomCat = () => {
   const [catImage, setCatImage] = useState({});
   const [toggle, setToggle] = useState(false);
 
@@ -13,7 +13,7 @@ const Task1_randomcat = () => {
       console.log(data[0]);
       setCatImage(data[0].url);
     });
-  }, [toggle]);
+  }, []);
 
   const handleClick = () => {
     setToggle((toggle) => !toggle);
@@ -32,4 +32,4 @@ const Task1_randomcat = () => {
   );
 };
 
-export default Task1_randomcat;
+export default Task1RandomCat;

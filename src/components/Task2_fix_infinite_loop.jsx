@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
-const Task2_fix_infinite_loop = () => {
-  const [counter, setCounter] = useState(0);
+/*For this task you will need to set up the useEffect() hook properly to avoid infinite loops. After the page is rendered, you should see the following displayed: 'Counter = 1'. Use the console in the browser to get a hint from the error message. Once you have a solution, refresh the page to see if the infinite loop has been eliminated.*/
 
-  /*For this task you will need to set up the useEffect() hook properly to avoid infinite loops. After the page is rendered, you should see the following displayed: 'Counter = 1'. Use the console in the browser to get a hint from the error message. Once you have a solution, refresh the page to see if the infinite loop has been eliminated.*/
+const Task2FixInfiniteLoop = () => {
+  const [counter, setCounter] = useState(0);
 
   useEffect(() => {
     // Do not change code below this line
@@ -22,4 +22,4 @@ const Task2_fix_infinite_loop = () => {
   );
 };
 
-export default Task2_fix_infinite_loop;
+export default Task2FixInfiniteLoop;

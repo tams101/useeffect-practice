@@ -1,0 +1,11 @@
+.confetti {
+  opacity: 1;
+  transition: opacity 3s ease; /* Add a transition for the opacity property */
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 4rem;
+  width: 600px;
+}
