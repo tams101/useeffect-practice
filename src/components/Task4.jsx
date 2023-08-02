@@ -14,13 +14,14 @@ const Task4 = () => {
   const [toggleButton4, setToggleButton4] = useState(false);
   const [areButtonsEnabled, setAreButtonsEnabled] = useState(false);
   useEffect(() => {
+    //Do not change anything in this callback function
     setSprinkle(true);
     setTimeout(() => {
       setAreButtonsEnabled(false);
       setSprinkle(false);
     }, 3000);
     setAreButtonsEnabled(true);
-  }, [toggleButton1]);
+  }, []);
 
   return (
     <div>
