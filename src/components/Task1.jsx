@@ -8,7 +8,7 @@ import styles from "../styles/Task1.module.css";
 
 const Task1 = () => {
   const [catImage, setCatImage] = useState({});
-  const [toggle, setToggle] = useState(false);
+  const [count, setCount] = useState(false);
 
   useEffect(() => {
     //Do not change anything inside this callback function
@@ -18,7 +18,7 @@ const Task1 = () => {
   }, []);
 
   const handleClick = () => {
-    setToggle((toggle) => !toggle);
+    setCount((currentCount) => currentCount + 1);
   };
 
   return (
