@@ -13,10 +13,16 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 500px;
-  height: 600px;
+  width: 35rem;
+  height: 30rem;
   align-items: center;
 }
 .button {
   width: 25%;
+}
+
+@media (max-width: 650px) {
+  .mainContent {
+    width: 20rem;
+  }
 }

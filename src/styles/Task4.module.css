@@ -9,3 +9,10 @@
   padding-top: 4rem;
   width: 600px;
 }
+@media (max-width: 650px) {
+  .buttonContainer {
+    flex-direction: column;
+    height: 15rem;
+    align-items: center;
+  }
+}
