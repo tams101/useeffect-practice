@@ -8,7 +8,7 @@ import styles from "../styles/Task1.module.css";
 
 const Task1 = () => {
   const [catImage, setCatImage] = useState({});
-  const [count, setCount] = useState(false);
+  const [count, setCount] = useState(0);
 
   useEffect(() => {
     //Do not change anything inside this callback function
